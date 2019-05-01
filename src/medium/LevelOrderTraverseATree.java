@@ -27,10 +27,8 @@ class TreeNode {
 }
 
 public class LevelOrderTraverseATree {
-
-
     /**
-     * store integer value in a linkedList while traversing the tree in level-order
+     * store integer value in an ArrayList while traversing the tree in level-order
      */
     public List<Integer> levelOrderTraverse(TreeNode root) {
 
@@ -56,7 +54,6 @@ public class LevelOrderTraverseATree {
     }
 
     public static void main(String[] args) {
-
         /**
          * create a new tree:
          *    1
@@ -78,7 +75,7 @@ public class LevelOrderTraverseATree {
         LevelOrderTraverseATree sol = new LevelOrderTraverseATree();
 
         List<Integer> result = sol.levelOrderTraverse(n1);
-        
+
         System.out.println("\nLevel-Order Traverse Solution:");
         System.out.println(result);
     }
