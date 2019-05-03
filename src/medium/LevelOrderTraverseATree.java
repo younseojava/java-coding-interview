@@ -4,27 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import util.TreeNode;
 
-/**
- * Elementary (Binary) Tree Node, as inner class
- * no access methods, just indirection will give links and value
- *
- *        value
- *        /   \
- *     left   right
- */
-class TreeNode {
-    TreeNode left;
-    TreeNode right;
-    int value;
-
-    /**
-     * Constructor
-     */
-    public TreeNode(int val) {
-        value = val;
-    }
-}
 
 public class LevelOrderTraverseATree {
     /**
